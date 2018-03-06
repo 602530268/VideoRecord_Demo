@@ -1,0 +1,24 @@
+
+//
+//  PrefixHeader.pch
+//  VideoRecord_Demo
+//
+//  Created by chencheng on 2018/3/1.
+//  Copyright © 2018年 double chen. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <Masonry.h>
+#import <AFNetworking.h>
+#import <GPUImage.h>
+#import <SVProgressHUD.h>
+
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width   //屏幕宽
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height  //屏幕高
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */

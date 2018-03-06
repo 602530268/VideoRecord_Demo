@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FiltersView">
+            <rect key="frame" x="0.0" y="0.0" width="378" height="150"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m1D-YB-8xi">
+                    <rect key="frame" x="0.0" y="0.0" width="378" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="1Vd-hJ-0rC"/>
+                    </constraints>
+                    <state key="normal" title="滤镜"/>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DVg-81-18r">
+                    <rect key="frame" x="0.0" y="50" width="378" height="100"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F0M-zS-r0P">
+                    <rect key="frame" x="0.0" y="50" width="378" height="100"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="DVg-81-18r" secondAttribute="trailing" id="609-7e-DT4"/>
+                <constraint firstItem="F0M-zS-r0P" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="9nS-ak-Acz"/>
+                <constraint firstItem="DVg-81-18r" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Fjd-sp-3nU"/>
+                <constraint firstItem="F0M-zS-r0P" firstAttribute="top" secondItem="m1D-YB-8xi" secondAttribute="bottom" id="Ho8-FT-c0O"/>
+                <constraint firstItem="m1D-YB-8xi" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="IpS-Ew-Ukx"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="DVg-81-18r" secondAttribute="bottom" id="Jj7-Dl-MSA"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="F0M-zS-r0P" secondAttribute="bottom" id="OFb-2f-MLA"/>
+                <constraint firstItem="m1D-YB-8xi" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="OOD-H6-d2s"/>
+                <constraint firstItem="DVg-81-18r" firstAttribute="top" secondItem="m1D-YB-8xi" secondAttribute="bottom" id="Wsd-c6-xYR"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="F0M-zS-r0P" secondAttribute="trailing" id="Y8m-Jw-psQ"/>
+                <constraint firstItem="m1D-YB-8xi" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="h3x-yT-e6f"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="beautyContainer" destination="DVg-81-18r" id="XZP-oH-oas"/>
+                <outlet property="filterBtn" destination="m1D-YB-8xi" id="si8-3s-qTq"/>
+                <outlet property="filterContainer" destination="F0M-zS-r0P" id="NaW-lo-B49"/>
+            </connections>
+            <point key="canvasLocation" x="-38" y="-39"/>
+        </view>
+    </objects>
+</document>

@@ -15,6 +15,28 @@
 		356E6A712047A79D009F85F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 356E6A702047A79D009F85F4 /* main.m */; };
 		356E6A7B2047A79E009F85F4 /* VideoRecord_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 356E6A7A2047A79E009F85F4 /* VideoRecord_DemoTests.m */; };
 		356E6A862047A79E009F85F4 /* VideoRecord_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 356E6A852047A79E009F85F4 /* VideoRecord_DemoUITests.m */; };
+		356E6AA02047AB59009F85F4 /* BasePLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 356E6A9F2047AB59009F85F4 /* BasePLayerVC.m */; };
+		356E6AA32047B089009F85F4 /* AVPlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 356E6AA22047B089009F85F4 /* AVPlayerVC.m */; };
+		356E6AA62047B096009F85F4 /* GPUImagePlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 356E6AA52047B096009F85F4 /* GPUImagePlayerVC.m */; };
+		356E6AA92047D139009F85F4 /* music.wav in Resources */ = {isa = PBXBuildFile; fileRef = 356E6AA72047D138009F85F4 /* music.wav */; };
+		356E6AAA2047D139009F85F4 /* Movie.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 356E6AA82047D139009F85F4 /* Movie.m4v */; };
+		356E6AB02047D1E0009F85F4 /* CCPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 356E6AAE2047D1DF009F85F4 /* CCPlayer.m */; };
+		356E6ABD2047D1EB009F85F4 /* CCRecordTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 356E6AB22047D1EB009F85F4 /* CCRecordTool.m */; };
+		356E6ABE2047D1EB009F85F4 /* CCRecordFileOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 356E6AB32047D1EB009F85F4 /* CCRecordFileOutput.m */; };
+		356E6ABF2047D1EB009F85F4 /* CCRecordAssetWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 356E6AB62047D1EB009F85F4 /* CCRecordAssetWriter.m */; };
+		356E6AC02047D1EB009F85F4 /* CCRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 356E6AB72047D1EB009F85F4 /* CCRecord.m */; };
+		356E6AC12047D1EB009F85F4 /* CCGPUImageRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 356E6ABA2047D1EB009F85F4 /* CCGPUImageRecord.m */; };
+		356E6AC52047D1F3009F85F4 /* CCSystemCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 356E6AC32047D1F3009F85F4 /* CCSystemCamera.m */; };
+		356E6ACB2047DE07009F85F4 /* VideoEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 356E6ACA2047DE07009F85F4 /* VideoEditVC.m */; };
+		356E6AEC2048E673009F85F4 /* RecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 356E6ADC2048E673009F85F4 /* RecordView.m */; };
+		356E6AED2048E673009F85F4 /* FiltersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 356E6ADE2048E673009F85F4 /* FiltersView.m */; };
+		356E6AEE2048E673009F85F4 /* FileOutputRecordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 356E6ADF2048E673009F85F4 /* FileOutputRecordVC.m */; };
+		356E6AEF2048E673009F85F4 /* RecordBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356E6AE02048E673009F85F4 /* RecordBaseViewController.m */; };
+		356E6AF02048E673009F85F4 /* AssetWriterRecordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 356E6AE12048E673009F85F4 /* AssetWriterRecordVC.m */; };
+		356E6AF12048E673009F85F4 /* RecordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 356E6AE22048E673009F85F4 /* RecordView.xib */; };
+		356E6AF22048E673009F85F4 /* FiltersView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 356E6AE32048E673009F85F4 /* FiltersView.xib */; };
+		356E6AF32048E673009F85F4 /* GPUImageRecordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 356E6AE72048E673009F85F4 /* GPUImageRecordVC.m */; };
+		D437EDF17F0D4E1CDA75C107 /* libPods-VideoRecord_Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B8D207F7D19930350FFA50 /* libPods-VideoRecord_Demo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +73,49 @@
 		356E6A812047A79E009F85F4 /* VideoRecord_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoRecord_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		356E6A852047A79E009F85F4 /* VideoRecord_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoRecord_DemoUITests.m; sourceTree = "<group>"; };
 		356E6A872047A79E009F85F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		356E6A9A2047AA4B009F85F4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		356E6A9E2047AB59009F85F4 /* BasePLayerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasePLayerVC.h; sourceTree = "<group>"; };
+		356E6A9F2047AB59009F85F4 /* BasePLayerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasePLayerVC.m; sourceTree = "<group>"; };
+		356E6AA12047B089009F85F4 /* AVPlayerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVPlayerVC.h; sourceTree = "<group>"; };
+		356E6AA22047B089009F85F4 /* AVPlayerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerVC.m; sourceTree = "<group>"; };
+		356E6AA42047B096009F85F4 /* GPUImagePlayerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPUImagePlayerVC.h; sourceTree = "<group>"; };
+		356E6AA52047B096009F85F4 /* GPUImagePlayerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPUImagePlayerVC.m; sourceTree = "<group>"; };
+		356E6AA72047D138009F85F4 /* music.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = music.wav; sourceTree = "<group>"; };
+		356E6AA82047D139009F85F4 /* Movie.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = Movie.m4v; sourceTree = "<group>"; };
+		356E6AAE2047D1DF009F85F4 /* CCPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCPlayer.m; sourceTree = "<group>"; };
+		356E6AAF2047D1DF009F85F4 /* CCPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCPlayer.h; sourceTree = "<group>"; };
+		356E6AB22047D1EB009F85F4 /* CCRecordTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCRecordTool.m; sourceTree = "<group>"; };
+		356E6AB32047D1EB009F85F4 /* CCRecordFileOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCRecordFileOutput.m; sourceTree = "<group>"; };
+		356E6AB42047D1EB009F85F4 /* CCGPUImageRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCGPUImageRecord.h; sourceTree = "<group>"; };
+		356E6AB52047D1EB009F85F4 /* CCRecordHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCRecordHeader.h; sourceTree = "<group>"; };
+		356E6AB62047D1EB009F85F4 /* CCRecordAssetWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCRecordAssetWriter.m; sourceTree = "<group>"; };
+		356E6AB72047D1EB009F85F4 /* CCRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCRecord.m; sourceTree = "<group>"; };
+		356E6AB82047D1EB009F85F4 /* CCRecordTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCRecordTool.h; sourceTree = "<group>"; };
+		356E6AB92047D1EB009F85F4 /* CCRecordFileOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCRecordFileOutput.h; sourceTree = "<group>"; };
+		356E6ABA2047D1EB009F85F4 /* CCGPUImageRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCGPUImageRecord.m; sourceTree = "<group>"; };
+		356E6ABB2047D1EB009F85F4 /* CCRecordAssetWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCRecordAssetWriter.h; sourceTree = "<group>"; };
+		356E6ABC2047D1EB009F85F4 /* CCRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCRecord.h; sourceTree = "<group>"; };
+		356E6AC32047D1F3009F85F4 /* CCSystemCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSystemCamera.m; sourceTree = "<group>"; };
+		356E6AC42047D1F3009F85F4 /* CCSystemCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSystemCamera.h; sourceTree = "<group>"; };
+		356E6AC92047DE07009F85F4 /* VideoEditVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoEditVC.h; sourceTree = "<group>"; };
+		356E6ACA2047DE07009F85F4 /* VideoEditVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoEditVC.m; sourceTree = "<group>"; };
+		356E6ADC2048E673009F85F4 /* RecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordView.m; sourceTree = "<group>"; };
+		356E6ADD2048E673009F85F4 /* GPUImageRecordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageRecordVC.h; sourceTree = "<group>"; };
+		356E6ADE2048E673009F85F4 /* FiltersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiltersView.m; sourceTree = "<group>"; };
+		356E6ADF2048E673009F85F4 /* FileOutputRecordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileOutputRecordVC.m; sourceTree = "<group>"; };
+		356E6AE02048E673009F85F4 /* RecordBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordBaseViewController.m; sourceTree = "<group>"; };
+		356E6AE12048E673009F85F4 /* AssetWriterRecordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetWriterRecordVC.m; sourceTree = "<group>"; };
+		356E6AE22048E673009F85F4 /* RecordView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecordView.xib; sourceTree = "<group>"; };
+		356E6AE32048E673009F85F4 /* FiltersView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FiltersView.xib; sourceTree = "<group>"; };
+		356E6AE52048E673009F85F4 /* FileOutputRecordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileOutputRecordVC.h; sourceTree = "<group>"; };
+		356E6AE62048E673009F85F4 /* FiltersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiltersView.h; sourceTree = "<group>"; };
+		356E6AE72048E673009F85F4 /* GPUImageRecordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageRecordVC.m; sourceTree = "<group>"; };
+		356E6AE82048E673009F85F4 /* RecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordView.h; sourceTree = "<group>"; };
+		356E6AE92048E673009F85F4 /* AssetWriterRecordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetWriterRecordVC.h; sourceTree = "<group>"; };
+		356E6AEA2048E673009F85F4 /* RecordBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordBaseViewController.h; sourceTree = "<group>"; };
+		44DAB6CCBCF93DFA1F40EB4D /* Pods-VideoRecord_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoRecord_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoRecord_Demo/Pods-VideoRecord_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		46B8D207F7D19930350FFA50 /* libPods-VideoRecord_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VideoRecord_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77E2EF47134B582EB167F57A /* Pods-VideoRecord_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoRecord_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoRecord_Demo/Pods-VideoRecord_Demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D437EDF17F0D4E1CDA75C107 /* libPods-VideoRecord_Demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +144,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		028409938774ACDA226524F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46B8D207F7D19930350FFA50 /* libPods-VideoRecord_Demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		356E6A552047A79D009F85F4 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +159,8 @@
 				356E6A792047A79E009F85F4 /* VideoRecord_DemoTests */,
 				356E6A842047A79E009F85F4 /* VideoRecord_DemoUITests */,
 				356E6A5F2047A79D009F85F4 /* Products */,
+				7EAB6D3F68E4334E9E4919EC /* Pods */,
+				028409938774ACDA226524F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,11 +181,17 @@
 				356E6A622047A79D009F85F4 /* AppDelegate.m */,
 				356E6A642047A79D009F85F4 /* ViewController.h */,
 				356E6A652047A79D009F85F4 /* ViewController.m */,
+				356E6AC22047D1F3009F85F4 /* CCSystemCamera */,
+				356E6AB12047D1EB009F85F4 /* CCRecord */,
+				356E6AAD2047D1DF009F85F4 /* CCPlayer */,
+				356E6A992047AA0E009F85F4 /* UI */,
+				356E6AAC2047D143009F85F4 /* Resources */,
 				356E6A672047A79D009F85F4 /* Main.storyboard */,
 				356E6A6A2047A79D009F85F4 /* Assets.xcassets */,
 				356E6A6C2047A79D009F85F4 /* LaunchScreen.storyboard */,
 				356E6A6F2047A79D009F85F4 /* Info.plist */,
 				356E6A702047A79D009F85F4 /* main.m */,
+				356E6A9A2047AA4B009F85F4 /* PrefixHeader.pch */,
 			);
 			path = VideoRecord_Demo;
 			sourceTree = "<group>";
@@ -132,6 +214,113 @@
 			path = VideoRecord_DemoUITests;
 			sourceTree = "<group>";
 		};
+		356E6A992047AA0E009F85F4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				356E6AF52048F15E009F85F4 /* Edit */,
+				356E6AF42048E677009F85F4 /* Player */,
+				356E6ADA2048E672009F85F4 /* Record */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		356E6AAC2047D143009F85F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				356E6AA72047D138009F85F4 /* music.wav */,
+				356E6AA82047D139009F85F4 /* Movie.m4v */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		356E6AAD2047D1DF009F85F4 /* CCPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				356E6AAF2047D1DF009F85F4 /* CCPlayer.h */,
+				356E6AAE2047D1DF009F85F4 /* CCPlayer.m */,
+			);
+			path = CCPlayer;
+			sourceTree = "<group>";
+		};
+		356E6AB12047D1EB009F85F4 /* CCRecord */ = {
+			isa = PBXGroup;
+			children = (
+				356E6ABC2047D1EB009F85F4 /* CCRecord.h */,
+				356E6AB72047D1EB009F85F4 /* CCRecord.m */,
+				356E6AB52047D1EB009F85F4 /* CCRecordHeader.h */,
+				356E6AB92047D1EB009F85F4 /* CCRecordFileOutput.h */,
+				356E6AB32047D1EB009F85F4 /* CCRecordFileOutput.m */,
+				356E6ABB2047D1EB009F85F4 /* CCRecordAssetWriter.h */,
+				356E6AB62047D1EB009F85F4 /* CCRecordAssetWriter.m */,
+				356E6AB42047D1EB009F85F4 /* CCGPUImageRecord.h */,
+				356E6ABA2047D1EB009F85F4 /* CCGPUImageRecord.m */,
+				356E6AB82047D1EB009F85F4 /* CCRecordTool.h */,
+				356E6AB22047D1EB009F85F4 /* CCRecordTool.m */,
+			);
+			path = CCRecord;
+			sourceTree = "<group>";
+		};
+		356E6AC22047D1F3009F85F4 /* CCSystemCamera */ = {
+			isa = PBXGroup;
+			children = (
+				356E6AC42047D1F3009F85F4 /* CCSystemCamera.h */,
+				356E6AC32047D1F3009F85F4 /* CCSystemCamera.m */,
+			);
+			path = CCSystemCamera;
+			sourceTree = "<group>";
+		};
+		356E6ADA2048E672009F85F4 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				356E6AEA2048E673009F85F4 /* RecordBaseViewController.h */,
+				356E6AE02048E673009F85F4 /* RecordBaseViewController.m */,
+				356E6AE52048E673009F85F4 /* FileOutputRecordVC.h */,
+				356E6ADF2048E673009F85F4 /* FileOutputRecordVC.m */,
+				356E6AE92048E673009F85F4 /* AssetWriterRecordVC.h */,
+				356E6AE12048E673009F85F4 /* AssetWriterRecordVC.m */,
+				356E6ADD2048E673009F85F4 /* GPUImageRecordVC.h */,
+				356E6AE72048E673009F85F4 /* GPUImageRecordVC.m */,
+				356E6AE82048E673009F85F4 /* RecordView.h */,
+				356E6ADC2048E673009F85F4 /* RecordView.m */,
+				356E6AE22048E673009F85F4 /* RecordView.xib */,
+				356E6AE62048E673009F85F4 /* FiltersView.h */,
+				356E6ADE2048E673009F85F4 /* FiltersView.m */,
+				356E6AE32048E673009F85F4 /* FiltersView.xib */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		356E6AF42048E677009F85F4 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				356E6A9E2047AB59009F85F4 /* BasePLayerVC.h */,
+				356E6A9F2047AB59009F85F4 /* BasePLayerVC.m */,
+				356E6AA12047B089009F85F4 /* AVPlayerVC.h */,
+				356E6AA22047B089009F85F4 /* AVPlayerVC.m */,
+				356E6AA42047B096009F85F4 /* GPUImagePlayerVC.h */,
+				356E6AA52047B096009F85F4 /* GPUImagePlayerVC.m */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		356E6AF52048F15E009F85F4 /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				356E6AC92047DE07009F85F4 /* VideoEditVC.h */,
+				356E6ACA2047DE07009F85F4 /* VideoEditVC.m */,
+			);
+			path = Edit;
+			sourceTree = "<group>";
+		};
+		7EAB6D3F68E4334E9E4919EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44DAB6CCBCF93DFA1F40EB4D /* Pods-VideoRecord_Demo.debug.xcconfig */,
+				77E2EF47134B582EB167F57A /* Pods-VideoRecord_Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +328,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 356E6A8A2047A79E009F85F4 /* Build configuration list for PBXNativeTarget "VideoRecord_Demo" */;
 			buildPhases = (
+				7D6C240623E96EBCA5E9DF3D /* [CP] Check Pods Manifest.lock */,
 				356E6A5A2047A79D009F85F4 /* Sources */,
 				356E6A5B2047A79D009F85F4 /* Frameworks */,
 				356E6A5C2047A79D009F85F4 /* Resources */,
+				2B6A747A16BAFB651F134EE6 /* [CP] Embed Pods Frameworks */,
+				EE687BAB7ACE9C8D11313FAA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,8 +431,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				356E6A6E2047A79D009F85F4 /* LaunchScreen.storyboard in Resources */,
+				356E6AA92047D139009F85F4 /* music.wav in Resources */,
 				356E6A6B2047A79D009F85F4 /* Assets.xcassets in Resources */,
 				356E6A692047A79D009F85F4 /* Main.storyboard in Resources */,
+				356E6AAA2047D139009F85F4 /* Movie.m4v in Resources */,
+				356E6AF12048E673009F85F4 /* RecordView.xib in Resources */,
+				356E6AF22048E673009F85F4 /* FiltersView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +456,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B6A747A16BAFB651F134EE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoRecord_Demo/Pods-VideoRecord_Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D6C240623E96EBCA5E9DF3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VideoRecord_Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE687BAB7ACE9C8D11313FAA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-VideoRecord_Demo/Pods-VideoRecord_Demo-resources.sh",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoRecord_Demo/Pods-VideoRecord_Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		356E6A5A2047A79D009F85F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				356E6A662047A79D009F85F4 /* ViewController.m in Sources */,
+				356E6AEC2048E673009F85F4 /* RecordView.m in Sources */,
 				356E6A712047A79D009F85F4 /* main.m in Sources */,
+				356E6AA62047B096009F85F4 /* GPUImagePlayerVC.m in Sources */,
 				356E6A632047A79D009F85F4 /* AppDelegate.m in Sources */,
+				356E6ABD2047D1EB009F85F4 /* CCRecordTool.m in Sources */,
+				356E6AC52047D1F3009F85F4 /* CCSystemCamera.m in Sources */,
+				356E6AC12047D1EB009F85F4 /* CCGPUImageRecord.m in Sources */,
+				356E6AEE2048E673009F85F4 /* FileOutputRecordVC.m in Sources */,
+				356E6AA02047AB59009F85F4 /* BasePLayerVC.m in Sources */,
+				356E6ACB2047DE07009F85F4 /* VideoEditVC.m in Sources */,
+				356E6AED2048E673009F85F4 /* FiltersView.m in Sources */,
+				356E6AC02047D1EB009F85F4 /* CCRecord.m in Sources */,
+				356E6AF32048E673009F85F4 /* GPUImageRecordVC.m in Sources */,
+				356E6AF02048E673009F85F4 /* AssetWriterRecordVC.m in Sources */,
+				356E6ABE2047D1EB009F85F4 /* CCRecordFileOutput.m in Sources */,
+				356E6AA32047B089009F85F4 /* AVPlayerVC.m in Sources */,
+				356E6ABF2047D1EB009F85F4 /* CCRecordAssetWriter.m in Sources */,
+				356E6AEF2048E673009F85F4 /* RecordBaseViewController.m in Sources */,
+				356E6AB02047D1E0009F85F4 /* CCPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,10 +700,14 @@
 		};
 		356E6A8B2047A79E009F85F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44DAB6CCBCF93DFA1F40EB4D /* Pods-VideoRecord_Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M3YN599LE4;
+				GCC_PREFIX_HEADER = /Users/chencheng/Desktop/Code/Demo/VideoRecord_Demo/VideoRecord_Demo/PrefixHeader.pch;
 				INFOPLIST_FILE = VideoRecord_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cc.com.VideoRecord-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,10 +717,14 @@
 		};
 		356E6A8C2047A79E009F85F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77E2EF47134B582EB167F57A /* Pods-VideoRecord_Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M3YN599LE4;
+				GCC_PREFIX_HEADER = /Users/chencheng/Desktop/Code/Demo/VideoRecord_Demo/VideoRecord_Demo/PrefixHeader.pch;
 				INFOPLIST_FILE = VideoRecord_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cc.com.VideoRecord-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
